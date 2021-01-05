@@ -1,2 +1,2 @@
 # shfd27.github.io
-this server will activate in mid-December
+this server will activate in January
