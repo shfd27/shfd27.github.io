@@ -1,13 +1,44 @@
-@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 * {
-    font-family: 'Nanum Gothic';
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
 }
-a {
-    color: #000000;
-    text-decoration: none;
+.jumbotron{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    text-shadow: black 0.2em 0.2em 0.2em;
+    color: white;
+    border-radius: 0rem;
+    padding-top: 120px;
 }
-a:hover {
-    color: #ff0000;
-    text-decoration: none;
-    cursor: pointer;
+.navbar {
+    background: rgb(0,0,0);
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.63);
+}
+.project-md{
+    padding: 15px;
+}
+.project-cell{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 0.25em;
+}
+.project-header {
+    background: rgb(212, 212, 212);
+    padding: 0.75em;
+    font-weight: 400;
+}
+.project-body {
+    padding: 1em;
+}
+.project-footer {
+    background: rgb(212, 212, 212);
+    padding: 0.75em;
 }
