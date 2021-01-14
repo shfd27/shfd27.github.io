@@ -1,5 +1,10 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+@media (max-width:768px){.jumbotron{font-size:15px;}}
+@media (min-width:769px) and (max-width:991px){.jumbotron{font-size:17.5px;}}
+@media (min-width:992px) and (max-width:1199px){.jumbotron{font-size:20px;}}
+@media (min-width:1200px){.jumbotron{font-size:25px;}}
+
 * {
     font-family: 'Noto Sans KR';
     font-weight: 100;
