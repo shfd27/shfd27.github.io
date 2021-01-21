@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
+html, body {
+	width: 100%; height: 100%;
+}
+
 @media (max-width:768px){.jumbotron{font-size:15px;}}
 @media (min-width:769px) and (max-width:991px){.jumbotron{font-size:17.5px;}}
 @media (min-width:992px) and (max-width:1199px){.jumbotron{font-size:20px;}}
@@ -12,9 +16,13 @@
 .jumbotron{
     background-image: url('../img/background.png');
     background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem;
     color: white;
     border-radius: 0rem;
-    padding-top: 120px;
 }
 .navbar {
     background: rgb(0,0,0);
