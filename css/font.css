@@ -24,6 +24,23 @@ html, body {
     color: white;
     border-radius: 0rem;
 }
+.bg-overlay{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem;
+    color: white;
+    border-radius: 0rem;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: rgb(182, 182, 182);
+}
 .navbar {
     background: rgb(0,0,0);
     -webkit-transition: all 0.6s ease-out;
@@ -49,6 +66,23 @@ html, body {
     background: rgb(212, 212, 212);
 }
 .footer {
-    background: rgb(50, 50, 50);
-    font-size: 14px;
+    background: rgb(250, 250, 250);
+    font-size: 16px;
+}
+.footer-content {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+.footer ul a{
+    color :black;
+    font-weight : 200;
+}
+.footer li{
+    line-height: 36px;
+}
+.footer ul p{
+    margin-bottom: 0;
+}
+#description{
+    line-height: 28px;
 }
